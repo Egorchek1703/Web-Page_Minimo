@@ -1,0 +1,217 @@
+body
+{
+    margin: 0;
+}
+div.container-fluid
+{
+    padding: 0 70px 0 70px;
+}
+/* header */
+.header
+{
+    height: 675px;
+    background-image: url(images/girls.jpg);
+    background-size: 92% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+.head
+{
+    height: 130px;
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+}
+.logo img
+{
+    width: 120px;
+    height: 30px;
+}
+.menu
+{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.menu ul li
+{
+    list-style-type: none;
+    display: inline;
+}
+.menu ul li a
+{
+    font-size: 24px;
+    font-weight: 600;
+    color: gray;
+    text-decoration: none;
+    padding-left: 80px;
+}
+.menu ul li a:hover
+{
+    color: aqua;
+    transition-property: color;
+    transition-duration: 1.5s;
+}
+
+/* text */
+.text .row
+{
+    padding: 0 100px;
+}
+.text
+{
+    padding: 0;
+    color: gray;
+    margin: 70px 0 90px 0;
+}
+.text h2
+{
+    font-size: 36px;
+    font-weight: bold;
+}
+.pcap
+{
+    text-transform: uppercase;
+    font-size: 24px;
+    color: gray;
+}
+.bigtext
+{
+    line-height: 25px;
+    font-size: 20px;
+    width: 100%;
+}
+
+/* doublefoto */
+.doublefoto
+{
+    margin-bottom: 50px;
+}
+.doublefoto img
+{
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+.doublefoto img:hover
+{
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 2s;
+}
+.doublefoto p
+{
+    color: gray;
+    margin: 50px 0;
+    width: 100%;
+}
+.doublefoto h3
+{
+    color: gray;
+    font-size: 28px;
+}
+
+/* soap */
+
+.soap input[type="email"]
+{
+    border: none;
+    background: none;
+    color: gray;
+    padding: 15px;
+    font-size: 20px;
+}
+.subbut
+{
+    background-image: url(images/sendblack.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    height: 20px;
+    width: 32px;
+}
+.subbut:hover
+{
+    background-image: url(images/sendaqua.png);
+    transition-property: background-image;
+    transition-duration: 2s;
+}
+.form
+{
+    display: flex;
+}
+.soapr h2
+{
+    text-align: center;
+    color: gray;
+}
+.soap
+{
+    background-color: rgb(240, 240, 240);
+    height: 285px;
+}
+.soapr
+{
+    height: inherit;
+}
+.soapr h2
+{
+    padding-bottom: 60px;
+    height: 100%;
+    font-size: 40px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.form form
+{
+    display: block;
+    margin: 0 auto;
+}
+form input[type="email"]
+{
+    padding-top: 0;
+    margin-right: 130px;
+}
+.soapr div
+{
+    height: 142.5px;
+}
+.underline
+{
+    height: 180px;
+    border-top: 2px solid rgb(192, 192, 192);
+}
+.dbr img
+{
+    display: block;
+    margin: 40px auto 30px auto;
+    width: 100%;    
+}
+.dbr div img, .dbr div p,.dbr div h3
+{
+    padding-left: 30px;
+}
+.lastbut
+{
+    padding: 15px;
+    font-size: 22px;
+    color: rgb(150, 150, 150);
+    background: none;
+    border: 2px solid rgb(150, 150, 150);
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+.lastbut:hover
+{
+    color: aqua;
+    border: 2px solid aqua;
+    transition-property: color, border;
+    transition-duration: 2s;
+    cursor: pointer;
+}

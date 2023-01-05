@@ -1,0 +1,151 @@
+
+@media (max-width: 575.98px) 
+{
+    /* header */
+.header
+{
+    height: 300px;
+    margin-bottom: 20px;
+}
+.logo
+{
+    align-items: flex-start;
+    margin-top: 30px;
+}
+    /* text */
+.text
+{
+    margin: 0 20px;
+}
+.text .row
+{
+    padding: 0;
+}
+.text h2
+{
+    font-size: 30px;
+    margin: 25px 0px;
+}
+    /* doublefoto */
+.doublefoto h3
+{
+    margin: 0 auto;
+}
+.doublefoto p
+{
+    margin: 20px 0;
+}
+    /* soap */
+.soapr h2
+{
+    font-size: 30px;
+    padding-bottom: 45px;
+}
+form input[type="email"]
+{
+    margin-right: 25px;
+}
+.subbut
+{
+    margin-top: 20px;
+}
+.lastbut
+{
+    margin-bottom: 90px;
+}
+.doublefoto
+{
+    margin-bottom: 30px;
+}
+}
+
+
+    @media (min-width: 576px) and (max-width: 767.98px) 
+
+{
+    /* header */
+.header
+{
+    height: 400px;
+    margin-bottom: 20px;
+}
+    /* text */
+.text
+{
+    margin: 0 20px;
+}
+.text .row
+{
+    padding: 0;
+}
+    /* doublefoto */
+
+    /* soap */
+form input[type="email"]
+{
+    margin-right: 30px;
+}
+}
+
+
+    @media (min-width: 768px) and (max-width: 991.98px) 
+
+{
+    /* header */
+.menu ul
+{
+    padding: 0;
+}
+.menu ul li a
+{
+    font-size: 22px;
+    padding-left: 22px;
+}
+.header
+{
+    height: 500px;
+    margin-bottom: 30px;
+}
+    /* text */
+.text .row
+{
+    padding: 0 0;
+}
+
+    /* doublefoto */
+.doublefoto h3
+{
+    font-size: 24px;
+}
+    /* soap */
+}
+
+    @media (min-width: 992px) and (max-width: 1199.98px) 
+
+{
+    /* header */
+.menu ul
+{
+    padding: 0;
+}
+.menu ul li a
+{
+    font-size: 24px;
+    padding-left: 50px;
+}
+    /* text */
+.text .row
+{
+    padding: 0 60px;
+}
+    /* doublefoto */
+
+    /* soap */
+}
+
+
+    @media (min-width: 1200px) 
+
+{ 
+    /* ok */
+}
